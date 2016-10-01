@@ -4,7 +4,12 @@ machine:
   node:
     version: 6.6.0
 
-
 dependencies:
   post:
     - docker build -t $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/nodetodo:$CIRCLE_SHA1 .
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - ./deploy.sh

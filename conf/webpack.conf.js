@@ -61,4 +61,5 @@ module.exports = {
     'webpack-hot-middleware/client',
     `./${conf.path.src('index')}`
   ]
+
 };
