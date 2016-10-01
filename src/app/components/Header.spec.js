@@ -34,7 +34,7 @@ describe('components', () => {
 
       expect(input.type).toBe(TodoTextInput);
       expect(input.props.newTodo).toBe(true);
-      expect(input.props.placeholder).toBe('What needs to be done?');
+      expect(input.props.placeholder).toBe('What needs to be done????');
     });
 
     it('should call addTodo if length of text is greater than 0', () => {
