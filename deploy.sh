@@ -41,7 +41,7 @@ deploy_cluster() {
 make_task_def(){
 	task_template='[
 		{
-			"name": "nodetodotask",
+			"name": "nodetodo",
 			"image": "%s.dkr.ecr.us-east-1.amazonaws.com/nodetodo:%s",
 			"essential": true,
 			"memory": 1000,
