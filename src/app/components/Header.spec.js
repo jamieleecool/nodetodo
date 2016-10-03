@@ -30,7 +30,6 @@ describe('components', () => {
       const [h1, input] = output.props.children;
 
       expect(h1.type).toBe('h1');
-      expect(h1.props.children).toBe('todos');
 
       expect(input.type).toBe(TodoTextInput);
       expect(input.props.newTodo).toBe(true);
