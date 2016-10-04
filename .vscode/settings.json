@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+
+    "circleci.apiKey": "40e311d6612865753a9e21ff6434b69f6d4e2531",
+    "circleci.rate": 10
+
+}
